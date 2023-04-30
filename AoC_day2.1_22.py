@@ -19,7 +19,7 @@ for round in rounds:
     elif roundOutcome=="tie":
         userChoice=opponetChoice
         score+=val[userChoice]+3
-    elif roundOutcome=='lose':
+    else:
         userChoice=d[opponetChoice]
         score+=val[userChoice]
     
